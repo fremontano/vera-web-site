@@ -9,9 +9,11 @@ body {
     font-size: 47px;
 }
 
-.text-orange {
+.text-orange,
+.icons-color {
     color: #ec4e15;
 }
+
 
 .btn-orange {
     background-color: #ec4e15;
@@ -19,7 +21,11 @@ body {
 }
 
 .btn-orange:hover {
-    background-color: #c75830;
+    background-color: #d15a2f;
+}
+
+.icons .text-white:hover {
+    color: #d87754 !important;
 
 }
 
@@ -31,6 +37,14 @@ body {
     background-position: left center;
     background-size: cover;
     height: 700px;
+}
+
+.navbar ul li a {
+    color: white;
+}
+
+.navbar ul li a:hover {
+    color: #ec4e15;
 }
 
 .vertical-decoration {
@@ -47,9 +61,28 @@ body {
         text-align: center;
     }
 
+    .header p {
+        font-size: 16px;
+    }
+
     .header {
         background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url('/images/header-background.jpg');
         background-position: center center;
         background-repeat: no-repeat;
     }
+}
+
+/* Contact  */
+.my-7 {
+    padding-top: 8rem;
+}
+
+.hr-heading {
+    display: block;
+    width: 7.5rem;
+    height: 0.1rem;
+    margin-top: 0.625rem;
+    border: none;
+    background-color: #e76a3d;
+    opacity: 1;
 }
