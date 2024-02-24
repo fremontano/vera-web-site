@@ -77,6 +77,25 @@ body {
     padding-top: 8rem;
 }
 
+/* navbar sticky  */
+.navbar-sticky {
+    opacity: 0.5;
+}
+
+/* Details  */
+.details .vertical-decoration {
+    top: 0;
+    left: 0;
+    width: 24px;
+}
+
+.details-2 .vertical-decoration {
+    top: 5%;
+    right: 0;
+    width: 24px;
+
+}
+
 .hr-heading {
     display: block;
     width: 7.5rem;
@@ -85,4 +104,9 @@ body {
     border: none;
     background-color: #e76a3d;
     opacity: 1;
+}
+
+/* Experiencie  */
+.experience .text-orange {
+    color: #e27750;
 }

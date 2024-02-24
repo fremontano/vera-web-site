@@ -1,5 +1,4 @@
 //Remplazar texto en el header
-
 const checkReplace = document.querySelector('.replace-me');
 
 if (checkReplace !== null) {
