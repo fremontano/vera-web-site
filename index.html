@@ -21,7 +21,7 @@
 
 
   <!-- Navbar  -->
-  <nav class="navbar navbar-expand-lg bg-black sticky-top ">
+  <nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-black ">
     <div class="container">
       <a class="navbar-brand" href="#">
         <img src="images/logo.svg" alt="" width="100" />
@@ -36,7 +36,7 @@
             <a class="nav-link active" aria-current="page" href="#">Inicio</a>
           </li>
           <li class="nav-item ">
-            <a class="nav-link " href="#solutions">Soluciones</a>
+            <a class="nav-link " href="#soluctions">Soluciones</a>
           </li>
 
           <li class="nav-item">
@@ -48,7 +48,7 @@
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" href="#price">Precios</a>
+            <a class="nav-link" href="#pricing">Precios</a>
           </li>
 
           <li class="nav-item">
@@ -382,7 +382,7 @@
 
 
   <!-- Experience  -->
-  <section class="bg-secondary text-white experience">
+  <section id="experience" class="bg-secondary-experience text-white experience">
     <div class="container">
       <div class="row">
         <div class="col-md-6 offset-md-3 d-flex flex-column align-items-center text-center">
@@ -497,9 +497,478 @@
     </div>
   </section>
 
+  <!-- Video -->
+  <section class="video py-5 bg-black  text-white ">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 d-flex flex-column align-items-center">
+          <div class="position-relative">
+            <img src="images/video-img.png" alt="" class="img-fluid">
+            <a class="video-btn" data-bs-toggle="modal" data-bs-target="#videoModal" data-bs-src="/images/video">
+              <span class="video-play-button">
+                <span></span>
+              </span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="row video-points px-6 mt-5">
+        <div class="col-lg-4">
+          <h4 class="fw-bold">10 años de experiencia</h4>
+          <p>
+            Con 10 años de experiencia, garantizamos excelencia y éxito. Confía en nosotros para llevar tu negocio al
+            siguiente nivel.
+          </p>
+        </div>
+        <div class="col-lg-4">
+          <h4 class="fw-bold">Asociaciones duraderas</h4>
+          <p>
+            Forjamos asociaciones duraderas basadas en confianza y compromiso mutuo, trabajando juntos para alcanzar el
+            éxito a largo plazo.
+          </p>
+        </div>
+        <div class="col-lg-4">
+          <h4 class="fw-bold">quipo capacitado y capacitado</h4>
+          <p>
+            Nuestro equipo está altamente capacitado y comprometido, listo para ofrecerte soluciones de calidad y
+            resultados excepcionales.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- Video Modal -->
+    <div class="video-modal">
+      <div id="videoModal" class="modal fade">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="ratio ratio-16x9">
+              <iframe frameborder="0" class="embed-responsive-item" id="video" src="/images/video.mp4"></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
+  <!-- Pricing -->
+  <section id="pricing" class="pricing py-5 bg-black  text-white ">
+    <div class="container">
+      <div class="row mb-4">
+        <div class="col-md-6 offset-md-3 d-flex flex-column align-items-center text-center">
+          <h5><span class="badge btn-orange rounded-0 text-uppercase">
+              Precios
+            </span></h5>
+          <h2 class="fw-bold">
+            Opciones de precios flexibles
+          </h2>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <!-- Pricing Col 1 -->
+        <div class="col-md-3 mb-4 ">
+          <div class="card bg-card text-center rounded-0">
+            <div class="card-body">
+              <div class="xl-text fw-bold text-orange">$99</div>
+              <h4 class="card-title text-orange text-uppercase fw-bold mb-5">
+                Estándar
+              </h4>
+              <p>Nuestro plan de precios estándar ofrece un conjunto completo de características
+                para sus necesidades de software</p>
+              <ul class="list-unstyled lh-lg mt-5">
+                <li class="text-uppercase fs-5 fw-bold">
+                  Lista de suscriptores
+                </li>
+                <li class="text-uppercase fs-5 fw-bold">
+                  Control de administrador de usuarios
+                </li>
+              </ul>
+              <a href="#contact" class="btn btn-orange text-white mt-6 fw-bold">Preguntar</a>
+            </div>
+          </div>
+        </div>
 
+        <!-- Pricing Col 2 -->
+        <div class="col-md-3 mb-4 ">
+          <div class="card bg-card text-center rounded-0">
+            <div class="card-body">
+              <div class="xl-text fw-bold text-orange">$199</div>
+              <h4 class="card-title text-orange text-uppercase fw-bold mb-5 ">
+                Avanzada
+              </h4>
+              <p> Desbloquee capacidades mejoradas adicionales. Toma tu software
+                soluciones al siguiente nivel</p>
+              <ul class="list-unstyled lh-lg mt-5">
+                <li class="text-uppercase fs-5 fw-bold">
+                  Espacio de almacenamiento limitado
+                </li>
+                <li class="text-uppercase fs-5 fw-bold">
+                  Almacenamiento gratuito en la nube
+                </li>
+              </ul>
+              <a href="#contact" class="btn btn-orange text-white mt-6 fw-bold">Preguntar</a>
+            </div>
+          </div>
+        </div>
 
+        <!-- Pricing Col 3 -->
+        <div class="col-md-3">
+          <div class="card bg-card text-center rounded-0">
+            <div class="card-body">
+              <div class="xl-text fw-bold text-orange">$299</div>
+              <h4 class="card-title text-orange text-uppercase fw-bold mb-5">
+                Completo
+              </h4>
+              <p> Nuestro plan de precios completo ofrece un paquete todo incluido con
+                características avanzadas</p>
+              <ul class="list-unstyled lh-lg mt-5">
+                <li class="text-uppercase fs-5 fw-bold">
+                  Protocolo de implementación
+                </li>
+                <li class="text-uppercase fs-5 fw-bold">
+                  Paquete de soporte premium
+                </li>
+              </ul>
+              <a href="#contact" class="btn btn-orange text-white mt-6 fw-bold">Preguntar</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="projects my-7 bg-black  text-white ">
+    <div class="container">
+      <div class="row mb-5">
+        <div class="col-md-6 offset-md-3 d-flex flex-column align-items-center text-center">
+          <h5><span class="badge btn-orange rounded-0 text-uppercase">
+              Proyectos
+            </span></h5>
+          <h2 class="fw-bold">Proyecto de los que estamos orgullosos</h2>
+          <p> Estamos orgullosos de nuestros proyectos exitosos y del valor que aportan a
+            nuestros clientes. Con nuestra experiencia y dedicación, hemos entregado
+            resultados excepcionales. Aquí hay algunos aspectos destacados</p>
+        </div>
+      </div>
+      <!-- Projects Row 1 -->
+      <div class="row">
+        <div class="col-md-4 mb-4">
+          <div class="card bg-secondary text-white ">
+            <a data-bs-toggle="modal" data-bs-target="#modal1">
+              <img src="images/project-1.jpg" alt="" class="card-img-top">
+              <div class="card-body">
+                <p>
+                  <strong>Alimentos Orkla</strong> - Alimentos Orkla es una empresa líder en la industria alimentaria,
+                  comprometida con la innovación y la calidad para satisfacer las necesidades de sus consumidores.
+                </p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card bg-secondary text-white ">
+            <a data-bs-toggle="modal" data-bs-target="#modal2">
+              <img src="images/project-2.jpg" alt="" class="card-img-top">
+              <div class="card-body">
+                <p>
+                  <strong>Primer banco</strong> - es una institución financiera líder, dedicada a proporcionar una
+                  amplia gama de servicios bancarios y financieros de calidad para satisfacer las necesidades de sus
+                  clientes y promover el crecimiento económico.
+                </p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card bg-secondary text-white ">
+            <a data-bs-toggle="modal" data-bs-target="#modal3">
+              <img src="images/project-3.jpg" alt="" class="card-img-top">
+              <div class="card-body">
+                <p>
+                  <strong>
+                    Todos los dulces</strong> - Nuestra variedad de dulces café abarca desde los clásicos hasta los más
+                  exclusivos, ofreciendo una experiencia de sabor única para los amantes del café en todas partes.
+                </p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Projects Row 2 -->
+      <div class="row">
+        <div class="col-md-4 mb-4">
+          <div class="card bg-secondary text-white ">
+            <a data-bs-toggle="modal" data-bs-target="#modal4">
+              <img src="images/project-4.jpg" alt="" class="card-img-top">
+              <div class="card-body">
+                <p>
+                  <strong>Mensajero rápido</strong> - Nuestro mensajero rápido garantiza entregas ágiles y confiables,
+                  asegurando que tus paquetes lleguen a su destino en tiempo récord y eficiente para un buen manejo
+                </p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card bg-secondary text-white ">
+            <a data-bs-toggle="modal" data-bs-target="#modal5">
+              <img src="images/project-5.jpg" alt="" class="card-img-top">
+              <div class="card-body">
+                <p>
+                  <strong>Mercado de Lyra</strong> - El "Mercado de Lyra" es un espacio vibrante que ofrece una amplia
+                  variedad de productos frescos, artículos de primera necesidad y una experiencia de compra única para
+                  la comunidad local.
+                </p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card bg-secondary text-white ">
+            <a data-bs-toggle="modal" data-bs-target="#modal6">
+              <img src="images/project-6.jpg" alt="" class="card-img-top">
+              <div class="card-body">
+                <p>
+                  <strong>Tiendas del lunes</strong> - establecimientos comerciales
+                  que tradicionalmente abren al inicio de la semana, ofreciendo promociones especiales o descuentos para
+                  atraer a los clientes después del fin de semana.
+                </p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Project Modals -->
+  <div class="project-modals">
+    <!-- Modal 1 -->
+    <div id="modal1" class="modal fade">
+      <div class="modal-dialog modal-lg mt-7">
+        <div class="modal-content bg-secondary p-5">
+          <div class="row">
+            <div class="col-md-6">
+              <img src="images/project-1.jpg" alt="proyectos" class="img-fluid">
+            </div>
+            <div class="col-md-6">
+              <h3 class="text-white">Alimentos Orkla</h3>
+              <p class="lead text-white ">
+                Alimentos Orkla es una empresa líder en la industria alimentaria,
+                comprometida con la innovación y la calidad para satisfacer las necesidades de sus consumidores.
+              </p>
+              <a href="#" class="btn btn-orange btn-lg  text-white rounded-5 ">
+                Detalles
+              </a>
+              <button class="btn btn-light btn-lg  rounded-5 " data-bs-dismiss="modal">Cerrar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal 2 -->
+    <div id="modal2" class="modal fade">
+      <div class="modal-dialog modal-lg mt-7">
+        <div class="modal-content bg-secondary p-5">
+          <div class="row">
+            <div class="col-md-6">
+              <img src="images/project-2.jpg" alt="proyectos" class="img-fluid">
+            </div>
+            <div class="col-md-6">
+              <h3 class="text-white">Primer banco</h3>
+              <p class="lead text-white ">
+                es una institución financiera líder, dedicada a proporcionar una
+                amplia gama de servicios bancarios y financieros de calidad para satisfacer las necesidades de sus
+                clientes y promover el crecimiento económico.
+              </p>
+              <a href="#" class="btn btn-orange btn-lg  text-white rounded-5 ">
+                Detalles
+              </a>
+              <button class="btn btn-light btn-lg  rounded-5 " data-bs-dismiss="modal">Cerrar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal 3 -->
+    <div id="modal3" class="modal fade">
+      <div class="modal-dialog modal-lg mt-7">
+        <div class="modal-content bg-secondary p-5">
+          <div class="row">
+            <div class="col-md-6">
+              <img src="images/project-3.jpg" alt="proyectos" class="img-fluid">
+            </div>
+            <div class="col-md-6">
+              <h3 class="text-white"> Todos los dulces</h3>
+              <p class="lead text-white ">
+                Nuestra variedad de dulces café abarca desde los clásicos hasta los más
+                exclusivos, ofreciendo una experiencia de sabor única para los amantes del café en todas partes.
+              </p>
+              <a href="#" class="btn btn-orange btn-lg  text-white rounded-5 ">
+                Detalles
+              </a>
+              <button class="btn btn-light btn-lg  rounded-5 " data-bs-dismiss="modal">Cerrar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal 4 -->
+    <div id="modal4" class="modal fade">
+      <div class="modal-dialog modal-lg mt-7">
+        <div class="modal-content bg-secondary p-5">
+          <div class="row">
+            <div class="col-md-6">
+              <img src="images/project-4.jpg" alt="proyectos" class="img-fluid">
+            </div>
+            <div class="col-md-6">
+              <h3 class="text-white"> Mensajero rápido</h3>
+              <p class="lead text-white ">
+                Nuestro mensajero rápido garantiza entregas ágiles y confiables,
+                asegurando que tus paquetes lleguen a su destino en tiempo récord y eficiente para un buen manejo
+              </p>
+              <a href="#" class="btn btn-orange btn-lg  text-white rounded-5 ">
+                Detalles
+              </a>
+              <button class="btn btn-light btn-lg  rounded-5 " data-bs-dismiss="modal">Cerrar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal 5 -->
+    <div id="modal5" class="modal fade">
+      <div class="modal-dialog modal-lg mt-7">
+        <div class="modal-content bg-secondary p-5">
+          <div class="row">
+            <div class="col-md-6">
+              <img src="images/project-5.jpg" alt="proyectos" class="img-fluid">
+            </div>
+            <div class="col-md-6">
+              <h3 class="text-white"> Mercado de Lyra</h3>
+              <p class="lead text-white ">
+                El "Mercado de Lyra" es un espacio vibrante que ofrece una amplia variedad de productos frescos,
+                artículos de primera necesidad y una experiencia de compra única para la comunidad local.
+              </p>
+              <a href="#" class="btn btn-orange btn-lg  text-white rounded-5 ">
+                Detalles
+              </a>
+              <button class="btn btn-light btn-lg  rounded-5 " data-bs-dismiss="modal">Cerrar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal 6 -->
+    <div id="modal6" class="modal fade">
+      <div class="modal-dialog modal-lg mt-7">
+        <div class="modal-content bg-secondary p-5">
+          <div class="row">
+            <div class="col-md-6">
+              <img src="images/project-6.jpg" alt="proyectos" class="img-fluid">
+            </div>
+            <div class="col-md-6">
+              <h3 class="text-white"> Tiendas del lunes </h3>
+              <p class="lead text-white ">
+                establecimientos comerciales que tradicionalmente abren al inicio de la semana, ofreciendo promociones
+                especiales o descuentos para atraer a los clientes después del fin de semana.
+              </p>
+              <a href="#" class="btn btn-orange btn-lg  text-white rounded-5 ">
+                Detalles
+              </a>
+              <button class="btn btn-light btn-lg  rounded-5 " data-bs-dismiss="modal">Cerrar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div><!--end col modal-->
+
+  <!-- Newsletter -->
+  <section id="newsletter" class="newsletter py-5 bg-black text-white">
+    <div class="container">
+      <div class="row mb-4">
+        <div class="col-md-6 offset-md-3 d-flex flex-column align-items-center text-center">
+          <h2 class="fw-bold">Suscríbete y siguenos</h2>
+          <p>
+            Manténgase actualizado con nuestras últimas noticias y anuncios. Suscríbete a nuestro
+            boletín informativo y síganos en las redes sociales para obtener información valiosa y
+            actualizaciones emocionantes.
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 offset-md-3 d-flex flex-column align-items-center text-center">
+          <div class="input-group mb-3">
+            <input type="email" class="form-control form-control-lg bg-black text-white border-orange"
+              placeholder="Ingresa el correo electrónico" />
+            <button class="btn btn-orange text-white rounded-0" type="button">
+              Submit
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer  -->
+  <footer class="footer bg-black py-5 text-white ">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 my-3">
+          <h6>Acerca de Vera</h6>
+          <p>
+            Vera es una empresa dedicada a soluciones de software que tiene como objetivo proporcionar
+            servicios excepcionales a sus clientes. Estamos comprometidos a entregar
+            Soluciones innovadoras y personalizadas que se adaptan a su negocio específico.
+            necesidades
+          </p>
+        </div>
+        <div class="col-md-4 my-3">
+          <h6>Links</h6>
+          <ul class="list-unstyled">
+            <li>
+              Importante: <a href="#">Terminos & Condiciónes</a>,
+              <a href="index.htmlprivacy.html">Privacy Policy</a>
+            </li>
+            <li>
+              Useful: <a href="index.html#expertise">Experimentado</a>,
+              <a href="index.html#pricing">Precios</a>,
+              <a href="index.html#newsletter">Boletin informativo</a>
+              </a>
+            </li>
+            <li>
+              Menu: <a href="index.html">Inicio</a>, <a href="index.html#details">Detalles</a>,
+              <a href="index.html#solutions">Soluciones</a>,
+              <a href="index.html#projects">Proyectos</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-4 my-3">
+          <div class="mb-4">
+            <a href="#" class="text-decoration-none">
+              <i class="fab fa-facebook fa-2x text-light mx-2"></i>
+            </a>
+            <a href="#" class="text-decoration-none">
+              <i class="fab fa-twitter fa-2x text-light mx-2"></i>
+            </a>
+            <a href="#" class="text-decoration-none">
+              <i class="fab fa-instagram fa-2x text-light mx-2"></i>
+            </a>
+            <a href="#" class="text-decoration-none">
+              <i class="fab fa-pinterest fa-2x text-light mx-2"></i>
+            </a>
+          </div>
+          <p class="contact">
+
+            Nos encantaría saber de usted
+            <a href="mailto:correo@gmail.com"><strong>correo@gmail.com</strong></a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
 
 
   <script src="js/replaceme.min.js"></script>
